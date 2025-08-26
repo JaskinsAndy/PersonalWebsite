@@ -53,20 +53,19 @@ const translations = {
             viewProject: "View Project",
             gallery: "Gallery",
             project1: {
-                title: "Modern Architecture Project",
-                description: "A contemporary residential complex featuring sustainable design principles, innovative materials, and efficient space utilization for modern urban living.",
+                title: "Architecture Studio Website",
+                description: "A professional website developed for an architecture studio in Uzbekistan. Features modern design, project showcases, service listings, and client contact forms. Built with responsive design and multilingual support.",
                 tech: {
-                    sustainable: "Sustainable Design",
-                    modeling: "3D Modeling"
+                    responsive: "Responsive Design",
+                    multilingual: "Multilingual"
                 }
             },
             project2: {
-                title: "Lebanese Kitchen Design",
-                description: "Traditional Lebanese kitchen interior combining authentic cultural elements with modern functionality, featuring warm wood tones and traditional ceramic details.",
+                title: "Lebanese-Uzbek Restaurant Website (Quick Build)",
+                description: "A restaurant website combining Lebanese and Uzbek cuisine. Built quickly with limited time investment, resulting in a functional but basic design. Features menu display, contact information, and service descriptions. Note: This was a rushed project with minimal hours allocated.",
                 tech: {
-                    interior: "Interior Design",
-                    traditional: "Traditional Elements",
-                    kitchen: "Kitchen Planning"
+                    quickbuild: "Quick Build",
+                    basic: "Basic Design"
                 }
             },
             project3: {
@@ -153,20 +152,19 @@ const translations = {
             viewProject: "Посмотреть проект",
             gallery: "Галерея",
             project1: {
-                title: "Современный архитектурный проект",
-                description: "Современный жилой комплекс с принципами устойчивого дизайна, инновационными материалами и эффективным использованием пространства для современной городской жизни.",
+                title: "Веб-сайт архитектурной студии",
+                description: "Профессиональный веб-сайт, разработанный для архитектурной студии в Узбекистане. Включает современный дизайн, витрину проектов, список услуг и формы обратной связи с клиентами. Создан с адаптивным дизайном и многоязычной поддержкой.",
                 tech: {
-                    sustainable: "Устойчивый дизайн",
-                    modeling: "3D моделирование"
+                    responsive: "Адаптивный дизайн",
+                    multilingual: "Многоязычность"
                 }
             },
             project2: {
-                title: "Дизайн ливанской кухни",
-                description: "Традиционный ливанский кухонный интерьер, сочетающий аутентичные культурные элементы с современной функциональностью, с теплыми древесными тонами и традиционными керамическими деталями.",
+                title: "Сайт ливано-узбекского ресторана (быстрая сборка)",
+                description: "Веб-сайт ресторана, сочетающего ливанскую и узбекскую кухню. Создан быстро с ограниченными временными затратами, что привело к функциональному, но базовому дизайну. Включает отображение меню, контактную информацию и описания услуг. Примечание: Это был срочный проект с минимальным количеством часов.",
                 tech: {
-                    interior: "Дизайн интерьера",
-                    traditional: "Традиционные элементы",
-                    kitchen: "Планирование кухни"
+                    quickbuild: "Быстрая сборка",
+                    basic: "Базовый дизайн"
                 }
             },
             project3: {
@@ -253,20 +251,19 @@ const translations = {
             viewProject: "Projekt ansehen",
             gallery: "Galerie",
             project1: {
-                title: "Modernes Architekturprojekt",
-                description: "Ein zeitgenössischer Wohnkomplex mit nachhaltigen Designprinzipien, innovativen Materialien und effizienter Raumnutzung für modernes urbanes Leben.",
+                title: "Architekturstudio-Website",
+                description: "Eine professionelle Website für ein Architekturstudio in Usbekistan. Enthält modernes Design, Projektpräsentationen, Dienstleistungslisten und Kontaktformulare für Kunden. Erstellt mit responsivem Design und mehrsprachiger Unterstützung.",
                 tech: {
-                    sustainable: "Nachhaltiges Design",
-                    modeling: "3D-Modellierung"
+                    responsive: "Responsives Design",
+                    multilingual: "Mehrsprachig"
                 }
             },
             project2: {
-                title: "Libanesisches Küchendesign",
-                description: "Traditioneller libanesischer Kücheninnenraum, der authentische kulturelle Elemente mit moderner Funktionalität kombiniert, mit warmen Holztönen und traditionellen Keramikdetails.",
+                title: "Libanesisch-usbekische Restaurant-Website (Schnellbau)",
+                description: "Eine Restaurant-Website, die libanesische und usbekische Küche kombiniert. Schnell mit begrenztem Zeitaufwand erstellt, was zu einem funktionalen, aber einfachen Design führte. Enthält Menüanzeige, Kontaktinformationen und Dienstleistungsbeschreibungen. Hinweis: Dies war ein hastiges Projekt mit minimalen Stunden.",
                 tech: {
-                    interior: "Innenarchitektur",
-                    traditional: "Traditionelle Elemente",
-                    kitchen: "Küchenplanung"
+                    quickbuild: "Schnellbau",
+                    basic: "Einfaches Design"
                 }
             },
             project3: {
