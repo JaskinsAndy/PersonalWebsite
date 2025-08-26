@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasurbek Rashidov - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Jasurbek Rashidov</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-translate="nav.home">Home</a>
+                <a href="#projects" class="nav-link" data-translate="nav.projects">Projects</a>
+                <a href="#contact" class="nav-link" data-translate="nav.contact">Contact</a>
+            </div>
+            <div class="nav-controls">
+                <div class="language-selector">
+                    <i class="fas fa-globe"></i>
+                    <select id="languageSelect">
+                        <option value="en">EN</option>
+                        <option value="ru">RU</option>
+                        <option value="de">DE</option>
+                    </select>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span data-translate="hero.greeting">Hi, I'm</span> <span class="highlight">Jasurbek Rashidov</span>
+                        </h1>
+                        <p class="hero-subtitle" data-translate="hero.title">Web Developer & Digital Solutions Expert</p>
+                        <p class="hero-description" data-translate="hero.description">
+                            I'm a web developer focused on building modern, responsive, and user-friendly websites. With experience in both simple and complex projects, I combine technical skills with creativity to deliver clean, efficient, and visually appealing solutions. What sets me apart is adaptability, attention to detail, and a commitment to helping people and businesses create a strong online presence.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary" data-translate="hero.viewWork">View My Work</a>
+                            <a href="#contact" class="btn btn-secondary" data-translate="hero.getInTouch">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="profile-card">
+                            <div class="profile-avatar">
+                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="100" cy="70" r="35" fill="#6366f1"/>
+                                    <path d="M 30 180 Q 100 140 170 180 L 170 200 L 30 200 Z" fill="#6366f1"/>
+                                </svg>
+                            </div>
+                            <div class="profile-info">
+                                <h3>Jasurbek Rashidov</h3>
+                                <p data-translate="hero.profileTitle">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h2 data-translate="skills.title">Why Choose Me?</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 data-translate="skills.reliability.title">Reliability</h3>
+                            <p data-translate="skills.reliability.description">Consistent delivery of high-quality solutions on time, every time.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3 data-translate="skills.creativity.title">Creativity</h3>
+                            <p data-translate="skills.creativity.description">Innovative approaches to complex problems with unique solutions.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <h3 data-translate="skills.problemSolving.title">Problem-Solving</h3>
+                            <p data-translate="skills.problemSolving.description">Analytical thinking to break down challenges into manageable solutions.</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3 data-translate="skills.professionalism.title">Professionalism</h3>
+                            <p data-translate="skills.professionalism.description">Clear communication, attention to detail, and commitment to excellence.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1 data-translate="projects.title">My Projects</h1>
+                    <p data-translate="projects.subtitle">Showcasing my web development projects and digital solutions</p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Modern Architecture Building -->
+                                <rect width="300" height="200" fill="#f8fafc"/>
+                                <!-- Sky gradient -->
+                                <defs>
+                                    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="300" height="120" fill="url(#skyGrad)"/>
+                                <!-- Ground -->
+                                <rect x="0" y="180" width="300" height="20" fill="#64748b"/>
+                                <!-- Main building structure -->
+                                <rect x="80" y="60" width="140" height="120" fill="#475569" rx="2"/>
+                                <!-- Glass facade -->
+                                <rect x="90" y="70" width="20" height="100" fill="#e2e8f0"/>
+                                <rect x="120" y="70" width="20" height="100" fill="#e2e8f0"/>
+                                <rect x="150" y="70" width="20" height="100" fill="#e2e8f0"/>
+                                <rect x="180" y="70" width="20" height="100" fill="#e2e8f0"/>
+                                <!-- Entrance -->
+                                <rect x="140" y="150" width="20" height="30" fill="#1e293b"/>
+                                <!-- Architectural details -->
+                                <rect x="70" y="50" width="160" height="5" fill="#334155"/>
+                                <rect x="75" y="175" width="150" height="3" fill="#334155"/>
+                            </svg>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="projects.project1.title">Modern Architecture Project</h3>
+                            <p data-translate="projects.project1.description">A contemporary residential complex featuring sustainable design principles, innovative materials, and efficient space utilization for modern urban living.</p>
+                            <div class="project-tech">
+                                <span>AutoCAD</span>
+                                <span>SketchUp</span>
+                                <span data-translate="projects.project1.tech.sustainable">Sustainable Design</span>
+                                <span data-translate="projects.project1.tech.modeling">3D Modeling</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span data-translate="projects.viewProject">View Project</span></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i> <span data-translate="projects.gallery">Gallery</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Lebanese Kitchen Interior -->
+                                <rect width="300" height="200" fill="#fef7ed"/>
+                                <!-- Background walls -->
+                                <rect x="0" y="0" width="300" height="140" fill="#fed7aa"/>
+                                <!-- Floor -->
+                                <polygon points="0,140 300,140 300,200 0,200" fill="#d97706"/>
+                                <!-- Kitchen counter -->
+                                <rect x="30" y="120" width="240" height="25" fill="#92400e"/>
+                                <!-- Upper cabinets -->
+                                <rect x="40" y="40" width="220" height="35" fill="#7c2d12"/>
+                                <!-- Cabinet handles -->
+                                <circle cx="60" cy="57" r="2" fill="#fed7aa"/>
+                                <circle cx="100" cy="57" r="2" fill="#fed7aa"/>
+                                <circle cx="140" cy="57" r="2" fill="#fed7aa"/>
+                                <circle cx="180" cy="57" r="2" fill="#fed7aa"/>
+                                <circle cx="220" cy="57" r="2" fill="#fed7aa"/>
+                                <!-- Backsplash -->
+                                <rect x="35" y="75" width="230" height="45" fill="#fdba74"/>
+                                <!-- Appliances -->
+                                <rect x="50" y="85" width="30" height="30" fill="#374151"/>
+                                <rect x="200" y="85" width="50" height="30" fill="#374151"/>
+                                <!-- Decorative elements -->
+                                <circle cx="150" cy="25" r="8" fill="#dc2626"/>
+                                <rect x="145" y="15" width="10" height="5" fill="#059669"/>
+                            </svg>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="projects.project2.title">Lebanese Kitchen Design</h3>
+                            <p data-translate="projects.project2.description">Traditional Lebanese kitchen interior combining authentic cultural elements with modern functionality, featuring warm wood tones and traditional ceramic details.</p>
+                            <div class="project-tech">
+                                <span data-translate="projects.project2.tech.interior">Interior Design</span>
+                                <span>3ds Max</span>
+                                <span data-translate="projects.project2.tech.traditional">Traditional Elements</span>
+                                <span data-translate="projects.project2.tech.kitchen">Kitchen Planning</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span data-translate="projects.viewProject">View Project</span></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i> <span data-translate="projects.gallery">Gallery</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Dental Clinic Interior -->
+                                <rect width="300" height="200" fill="#f0fdf4"/>
+                                <!-- Clean modern walls -->
+                                <rect x="0" y="0" width="300" height="150" fill="#dcfce7"/>
+                                <!-- Floor -->
+                                <rect x="0" y="150" width="300" height="50" fill="#e5e7eb"/>
+                                <!-- Reception desk -->
+                                <rect x="200" y="120" width="80" height="30" fill="#059669"/>
+                                <!-- Dental chair -->
+                                <ellipse cx="80" cy="140" rx="25" ry="15" fill="#3b82f6"/>
+                                <rect x="70" y="130" width="20" height="20" fill="#1e40af"/>
+                                <!-- Medical equipment -->
+                                <rect x="120" y="100" width="15" height="40" fill="#6b7280"/>
+                                <circle cx="127" cy="95" r="8" fill="#f3f4f6"/>
+                                <!-- Ceiling lights -->
+                                <rect x="50" y="20" width="40" height="8" fill="#fbbf24"/>
+                                <rect x="150" y="20" width="40" height="8" fill="#fbbf24"/>
+                                <rect x="210" y="20" width="40" height="8" fill="#fbbf24"/>
+                                <!-- Hygiene symbols -->
+                                <circle cx="30" cy="50" r="6" fill="#10b981"/>
+                                <text x="30" y="55" text-anchor="middle" fill="white" font-size="8">+</text>
+                                <!-- Cabinet -->
+                                <rect x="250" y="80" width="40" height="60" fill="#f3f4f6"/>
+                                <rect x="255" y="85" width="30" height="5" fill="#d1d5db"/>
+                                <rect x="255" y="95" width="30" height="5" fill="#d1d5db"/>
+                                <rect x="255" y="105" width="30" height="5" fill="#d1d5db"/>
+                            </svg>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-translate="projects.project3.title">Dental Clinic Design</h3>
+                            <p data-translate="projects.project3.description">Modern dental clinic interior focused on patient comfort and clinical efficiency, featuring calming colors, optimal lighting, and ergonomic furniture layouts.</p>
+                            <div class="project-tech">
+                                <span data-translate="projects.project3.tech.healthcare">Healthcare Design</span>
+                                <span>Revit</span>
+                                <span data-translate="projects.project3.tech.ergonomic">Ergonomic Planning</span>
+                                <span data-translate="projects.project3.tech.medical">Medical Equipment</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> <span data-translate="projects.viewProject">View Project</span></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i> <span data-translate="projects.gallery">Gallery</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h1 data-translate="contact.title">Get In Touch</h1>
+                    <p data-translate="contact.subtitle">Ready to collaborate? Let's discuss your next project</p>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2 data-translate="contact.whyWork.title">Why Work With Me?</h2>
+                        <div class="contact-reasons">
+                            <div class="reason-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4 data-translate="contact.whyWork.track.title">Proven Track Record</h4>
+                                    <p data-translate="contact.whyWork.track.description">Successfully delivered 50+ projects across various industries</p>
+                                </div>
+                            </div>
+                            <div class="reason-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4 data-translate="contact.whyWork.excellence.title">Technical Excellence</h4>
+                                    <p data-translate="contact.whyWork.excellence.description">Deep expertise in modern technologies and best practices</p>
+                                </div>
+                            </div>
+                            <div class="reason-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4 data-translate="contact.whyWork.focused.title">Client-Focused</h4>
+                                    <p data-translate="contact.whyWork.focused.description">Clear communication and commitment to exceeding expectations</p>
+                                </div>
+                            </div>
+                            <div class="reason-item">
+                                <i class="fas fa-check-circle"></i>
+                                <div>
+                                    <h4 data-translate="contact.whyWork.partnership.title">Reliable Partnership</h4>
+                                    <p data-translate="contact.whyWork.partnership.description">Long-term relationships built on trust and consistent delivery</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-details">
+                            <h3 data-translate="contact.details.title">Contact Information</h3>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>jasurka2015@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+43 670 607 6667</span>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fab fa-telegram"></i>
+                                <span>@JasurRashidovDev</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3 data-translate="contact.form.title">Send Me a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" data-translate="contact.form.name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-translate="contact.form.email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" data-translate="contact.form.subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" data-translate="contact.form.message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" data-translate="contact.form.send">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jasurbek Rashidov. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
